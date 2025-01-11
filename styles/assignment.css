@@ -82,6 +82,10 @@ nav .sign {
     font-size: 16px;
     color: #006A50;
 }
+nav .sign:hover {
+    background-color: black;
+    opacity: 0.8;
+}
 /* hero */
 .hero {
     height: 476px;
@@ -145,15 +149,29 @@ nav .sign {
 #card-container .card-description {
     font-weight: 400;
     font-size: 14px;
+    margin-top: 15px;
+    opacity: 0.7;
+}
+.btn-container {
+    margin-top: 30px;
 }
 .btn-container2 {
-    margin-top: 30px;
+    margin-top: 46px;
+}
+.learn-more-color1{
+    background-color: #5490F5;
+}
+.learn-more-color2{
+    background-color: #09A15C;
+}
+.learn-more-color3{
+    background-color: #FFC239;
 }
 
 /* recent news */
 .recent-news {
     margin-top: 27px;
-    background-color: #FFFFFF;
+    background-color: #473e3e;
     padding: 39px;
     border-radius: 20px;
     display: flex;
@@ -193,18 +211,42 @@ nav .sign {
     margin-top: 28px;
     margin-left: 90px;
 }
-.d-amount {
-    padding: 33px 45px;
+.d-amount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #FFFFFF;
     font-weight: bold;
     font-size: 28px;
     opacity: 0.8;
     border-radius: 14px;
     margin-right: 30px;
+    width: 206px;
+    height: 109px;
 }
-#donation .amount2 {
+.d-amount p a{
+    color: black;
+}
+.d-amount-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 28px;
+    opacity: 0.8;
+    border-radius: 14px;
+    margin-right: 30px;
+    width: 206px;
+    height: 109px;
+    color: black;
     background-color: #C6E4D6;
 }
+.d-amount-a p a{
+    color: black
+}
+
 form{
     background-color: #FFFFFF;
     width: 890px;
@@ -269,4 +311,71 @@ input[type="text"] {
 }
 .sub input {
     border-radius: 10px;
+}
+#speech {
+    margin-top: 30px;
+    border-radius: 14px;
+    padding: 20px 20px;
+    background-color: rgba(255, 255, 255, 1);
+}
+#speech .speech-con {
+    background-image: url(../assets/quote-bg.png);
+    background-repeat:no-repeat;
+    background-position: top left;
+}
+#speech .speech-con .speech-con-2 {
+    padding:27px 0px;
+}
+.para1 {
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 0.8;;
+}
+.author {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.author-info {
+    opacity: 0.6;
+}
+/* footer */
+footer {
+    margin: 0;
+    margin-top: 70px;
+    padding: 45px 0px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+footer hr {
+    width: 952px;
+    background-color: rgba(14, 14, 14, 0.1);
+    margin-top: 30px;
+}
+.icon-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px
+    
+}
+
+/* some other challenges */
+.d-amount:hover {
+    background-color: green;
+}
+.d-amount-a:hover {
+    background-color: green;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
 }
