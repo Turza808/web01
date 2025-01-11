@@ -1,0 +1,78 @@
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F5F5F5;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul {
+    width: 1366px;
+    height: 80px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li {
+    margin: 26px 136px;
+    list-style: none;
+}
+nav li a {
+    text-decoration: none;
+}
+nav .name {
+    font-weight: bold;
+    font-size: 25px;
+}
+nav .sign {
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 13px 26px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #006A50;
+}
+/* hero */
+.hero {
+    width: 990px;
+    height: 476px;
+    margin: 18px 136px;
+    background-color: #C6E4D6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 55px;
+    
+}
+.hero-description {
+    width:550px;   
+}
+.hero-description .title {
+    font-weight: 600;
+    font-size: 20px;
+    opacity: 0.5;
+    margin-bottom: 12px;
+}
+.hero-description .subtitle {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 19px;
+}
+.hero-description button {
+    background-color: #006A50;
+    border:none;
+    border-radius: 7px;
+    padding: 17px 34px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.hero img {
+    width: 403px;
+    height: 340px;
+}
